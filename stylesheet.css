@@ -1,0 +1,145 @@
+* {
+  font-family: 'Red Hat Display', serif;
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  background: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+:root {
+  --darkblue:hsl(223, 47%, 23%);
+  --paleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+}
+
+.container {
+  text-align: center;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: 40px;
+  background-color: white;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 5px 5px 20px var(--Paleblue);
+          box-shadow: 5px 5px 20px var(--Paleblue);
+}
+
+.header {
+  font-size: 24px;
+  margin-top: 25px;
+  color: var(--darkblue);
+}
+
+.body-text {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: var(--Desaturatedblue);
+  font-weight: 450;
+  margin-bottom: 30px;
+}
+
+.annualplan-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--paleblue);
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.annualplan-container #change {
+  color: var(--Brightblue);
+  font-weight: 550;
+}
+
+.annualplan-container #change:hover {
+  color: var(--Desaturatedblue);
+  text-decoration: none;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container2 h2 {
+  color: var(--darkblue);
+}
+
+.container2 p {
+  color: var(--Desaturatedblue);
+}
+
+.container2 h2, .container2 p {
+  margin-bottom: 0;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.button1 {
+  background-color: var(--Brightblue);
+  margin-bottom: 20px;
+  display: block;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 9px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button1:hover {
+  background-color: var(--Desaturatedblue);
+}
+
+.button2 {
+  margin-bottom: 20px;
+  display: block;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: var(--Desaturatedblue);
+  font-weight: bold;
+}
+
+.button2:hover {
+  color: var(--darkblue);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: var(--paleblue);
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
